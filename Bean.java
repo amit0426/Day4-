@@ -6,8 +6,9 @@ public class Bean {
 	String name;
 	int age ;
 	int marks;
+        String address;
 
-	 Bean(int roll, String name, int marks, int age) {
+	 Bean(int roll, String name, int marks, int age,String address) {
 		
 		
 		// TODO Auto-generated constructor stub
@@ -16,6 +17,7 @@ public class Bean {
 		this.name = name;
 		this.age = age;
 		this.marks = marks;
+                this.address = address;
 		
 	}
 	
@@ -46,10 +48,10 @@ public class Bean {
 		Bean d1 = new Bean(20,"amit",400,23);
 		Bean d2 = new Bean(18,"jay",400,25);
 		
-//		int roll = 20;
-//	     String name = "Amit";
+//		  int roll = 20;
+//	          String name = "Amit";
 //		  int age  = 23;
-//		 int marks = 500;
+//		   int marks = 500;
 //		Bean();
 		d1.name();
 		
